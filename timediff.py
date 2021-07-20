@@ -19,6 +19,7 @@ def TimeDifference(strArr):
     for i in range(0,n):
         if answ[i]>answ[i-1]:
             diff=answ[i]-answ[i-1]
+            diffls.append(diff)
         else:
             diff=answ[i-1]-answ[i]
             diffls.append(diff)
